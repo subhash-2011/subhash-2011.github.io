@@ -1,5 +1,5 @@
 # Starter pipeline
-- task: MSBuild@1
+#- task: MSBuild@1
  # inputs:
   #  solution: '**/*.sln'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
