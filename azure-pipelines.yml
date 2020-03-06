@@ -8,9 +8,9 @@
 
 trigger:
 - master
-- task: MSBuild@1
-  inputs:
-    solution: '**/*.sln'
+#- task: MSBuild@1
+ # inputs:
+  #  solution: '**/*.sln'
 
 pool:
   vmImage: 'windows-latest'
