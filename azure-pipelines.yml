@@ -1,6 +1,6 @@
 # Starter pipeline
-#pool:
-#demands:msbuild
+pool:azure pipelines
+
 stages:
 -stage:build
  jobs:
