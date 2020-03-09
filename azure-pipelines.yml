@@ -2,7 +2,7 @@
 pool:azure pipelines
 
 stages:
--stage:build
+-stage:msbuild
  jobs:
 -job: build
 steps:
