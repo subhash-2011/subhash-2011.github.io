@@ -3,7 +3,7 @@
 #demands:msbuild
 stages:
 -stage:build
-jobs:
+ jobs:
 -job: build
 steps:
 - task: MSBuild@1
