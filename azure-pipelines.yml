@@ -6,7 +6,7 @@ stages:
  #jobs:
 #-job: build
 steps:
-- task: MSBuild@1
+- yaml: MSBuild@1
   inputs:
    displayname:'Build solution: **/*.sln'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
