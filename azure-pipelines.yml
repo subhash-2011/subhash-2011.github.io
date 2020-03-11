@@ -3,7 +3,7 @@
 
 stages:
 -stage:build
- jobs:
+# jobs:
 #-job: build
 
 - yaml: MSBuild@1
