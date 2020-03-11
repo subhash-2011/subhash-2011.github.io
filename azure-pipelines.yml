@@ -5,7 +5,7 @@ stages:
 -stage:build
  #jobs:
 #-job: build
-steps:
+
 - yaml: MSBuild@1
   inputs:
    displayname:'Build solution: **/*.sln'
