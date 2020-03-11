@@ -1,14 +1,14 @@
 # Starter pipeline
-#pool:azure pipelines
+pool:azure pipelines
 
-#stages:
-#-stage:build
+stages:
+-stage:build
 # jobs:
 #-job: build
 
-#- yaml: MSBuild@1
- # inputs:
- #  displayname:'Build solution: **/*.sln'
+- YAML: MSBuild@1
+ inputs:
+  displayname:'Build solution: **/*.sln'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
