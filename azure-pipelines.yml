@@ -1,5 +1,5 @@
 # Starter pipeline
-pool:azure pipelines
+pool:Default
 
 stages:
 -stage:build
