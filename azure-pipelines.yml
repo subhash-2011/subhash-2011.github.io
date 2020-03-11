@@ -3,8 +3,8 @@
 
 stages:
 -stage:build
- jobs:
--job: build
+ #jobs:
+#-job: build
 steps:
 - task: MSBuild@1
   inputs:
