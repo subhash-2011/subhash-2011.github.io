@@ -1,8 +1,8 @@
 # Starter pipeline
 pool:Default
 
-stages:
--stage:build
+#stages:
+#-stage:build
 # jobs:
 #-job: build
 
